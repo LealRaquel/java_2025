@@ -2,6 +2,22 @@ package exerciciosPoo;
 
 public class Main {
     public static void main(String[] args) {
+        //criar objeto da class bolo
+        Bolo boloMaria = new Bolo();
+        Bolo boloManel = new Bolo();
+
+        //dar valotres a instancia
+        boloMaria.sabor = "Simples";
+        boloMaria.tamanho = 21;
+        boloMaria.cobertura = true;
+
+        boloManel.sabor = "Chocolate";
+        boloManel.tamanho = 20;
+        boloManel.cobertura = false;
+
+        boloMaria.exibirDetalhes();
+
+
         //Criar um objecto novo
         Pessoa pessoa1 = new Pessoa();
 
